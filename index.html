@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="shortcut icon" href="./assets/favicon.svg" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            font-family: "Hanken Grotesk", sans-serif;
+            background-color: hsl(0, 0%, 16%);
+            color: hsl(0, 0%, 93%);
+        }
+        main {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1.title {
+            margin: 0;
+            font-size: 3rem;
+            font-weight: 900;
+        }
+        span.title-description {
+            margin-top: 1rem;
+            font-style: italic;
+        }
+        span.description {
+            margin-top: 1rem;
+        }
+        a.api-link {
+            display: inline-block;
+            margin-inline: 0.25rem;
+            padding: 4px 6px;
+            text-decoration: none;
+            background-color: rgb(130, 220, 255);
+            color: hsl(0, 0%, 16%);
+            border-radius: .25rem;
+        }
+    </style>
+    <title>Voltaik API</title>
+</head>
+<body>
+    <main>
+        <h1 class="title">Voltaik API</h1>
+        <span class="title-description">A RESTful API with employee data for a fake gaming company</span>
+        <span class="description">Visit&nbsp;<a class="api-link" href="/api/v2/employees">/api/v2/employees</a>&nbsp;to see a list of all the employees</span>
+    </main> 
+</body>
+</html>
